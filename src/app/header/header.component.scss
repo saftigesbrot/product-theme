@@ -1,17 +1,41 @@
-.nav {
+.navbar {
   height: 70px;
   background-image:linear-gradient(90deg, rgb(253, 255, 110) 0%, rgb(231, 235, 2) 80%);
   position: fixed;
   width: 100%;
 }
 
-.nav-item-style {
-  color: white;
+.navbar-brand {
+  margin-left: 10px;
   font-size: 30px;
+  color: white;
+  background-color: rgb(231, 235, 2);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
 }
 
-.nav-item-style:hover {
+.nav-item {
+  color: white;
+  font-size: 23px;
+  margin-right: 15px;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-link:hover {
   color: rgb(238, 250, 195);
   transform: scale(0.97);
 }
 
+@media (max-width: 700px) {
+
+  .nav-item {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+  
+}

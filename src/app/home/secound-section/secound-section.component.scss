@@ -44,3 +44,47 @@
   background-color: rgb(248, 252, 3);
   transform: scale(0.97);
 }
+
+.col-margin {
+  margin-top: 40px;
+}
+
+@media (max-width: 1400px) {
+  .content {
+    font-size: 58px;
+  }
+
+  .content-sign {
+    font-size: 25px;
+  }
+  
+  .content-name {
+    font-size: 30px;
+  }
+
+  .btn-card {
+    font-size: 20px;
+    border-radius: 5px;
+  }
+
+  .content-price {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 800px) {
+  .IMG {
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .col-margin {
+    margin-top: 15px;
+  }
+
+  .background {
+    padding-bottom: 20px;
+  }
+}

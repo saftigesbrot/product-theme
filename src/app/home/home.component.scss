@@ -10,6 +10,7 @@ img {
   font-family: 'Inter', sans-serif,'Cabin', sans-serif,'Courier Prime', monospace;
 }
 
+
 .headline-head {
   font-size: 30px;
   line-height: 200%;
@@ -24,9 +25,78 @@ img {
 
 .background {
   background-image:linear-gradient(90deg, rgb(253, 255, 110) 0%, rgb(231, 235, 2) 80%);
+  width: 100%;
 }
 
 .head-img {
   width: 10%;
   height: 10%;
+}
+
+@media (max-width: 770px) {
+    
+  .headline {
+    font-size: 45px;
+  }
+
+  .headline-bold {
+    border-radius: 5px;
+  }
+
+
+  .headline-head {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 771px){ 
+  .headline {
+    font-size: 50px;
+  }
+
+  .headline-bold {
+    border-radius: 10px;
+  }
+
+  .headline-head {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 851px){ 
+  .headline {
+    font-size: 60px;
+  }
+
+  .headline-bold {
+    border-radius: 10px;
+  }
+
+  .headline-head {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 1001px){ 
+  .headline {
+    font-size: 75px;
+  }
+
+  .headline-bold {
+    border-radius: 10px;
+  }
+
+  .headline-head {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .background {
+    padding-top: 50px;
+  }
 }
